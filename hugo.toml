@@ -1,0 +1,27 @@
+baseURL = "http://localhost/"
+languageCode = "en-us"
+title = "Luca Hollman"
+theme = "hugo-theme-stack"
+
+[menu]
+    [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+    [menu.main.params]
+        icon = "home"
+
+    [[menu.main]]
+        name = "About"
+        url = "/about/"
+        weight = 2
+        [menu.main.params]
+            icon = "user"
+
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
