@@ -1,4 +1,4 @@
-baseURL = "http://localhost/"
+baseURL = "http://lucahollman.github.io"
 languageCode = "en-us"
 title = "Luca Hollman"
 theme = "hugo-theme-stack"
